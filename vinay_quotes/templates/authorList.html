@@ -12,14 +12,14 @@
     <body>
         <table border="1">
             <tr>
-                <th>Quote</th>
                 <th>Author</th>
+                <th>Quote</th>
             </tr>
-            {% for i in quoteList %}
+            {% for i in authorList %}
     
             <tr>
-                <td>{{i.quote}}</td>
-                <td>{{i.author.name}}</td>
+                <td>{{i.name}}</td>
+                <td>{{i.quotes.quote}}</td>
 
             </tr>
             {% endfor %}

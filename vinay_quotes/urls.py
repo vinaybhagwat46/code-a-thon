@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',v.index),
     path('quoteList',v.quote_list),
+    path('author_list',v.author_list),
 ]
